@@ -1,0 +1,5 @@
+---
+# defaults file for test
+vpc_cidr: "172.16.0.0/12"
+name: "galaxy_test"
+vpc_description: "test for galaxy"

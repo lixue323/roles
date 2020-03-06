@@ -1,0 +1,7 @@
+---
+# tasks file for test
+- name: Create a new alicloud VPC resource
+  ali_vpc:
+    cidr_block: '{{ vpc_cidr }}'
+    vpc_name: '{{ name }}'
+    description: '{{ vpc_description }}'
